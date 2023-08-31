@@ -239,7 +239,7 @@ function currentLocationWeather(){
   	getCoordinates(function(latitude, longitude) {
   		lat=latitude;
   		lon=longitude;
-  		let baseUrl="http://api.weatherapi.com/v1/forecast.json?key="+KEY+"&q="+lat+","+lon+"&days=5";
+  		let baseUrl="https://api.weatherapi.com/v1/forecast.json?key="+KEY+"&q="+lat+","+lon+"&days=5";
   		let response=loadMainContent(baseUrl);
   		if(response)
   			return;
