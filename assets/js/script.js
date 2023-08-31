@@ -249,7 +249,7 @@ function currentLocationWeather(){
 }
 
 async function loadMainContent(baseUrl){
-	let response=await fetchdata(baseUrl);
+	let data=await fetchdata(baseUrl);
 	await loadcurrentweather(data);
 	await five_day_forecast(data);
 	await hourly_forecast(data);
