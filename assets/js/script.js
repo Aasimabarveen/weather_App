@@ -30,7 +30,7 @@ function loadcurrentweather (data){
 
 function getTimeOfDay(currentHour) {
     const body = document.body;
-	while (!body.classList.length &&body.classList.length > 0) {
+	while (body.classList.length &&body.classList.length > 0) {
     	body.classList.remove(body.classList.item(0));
 	}
 	console.log(`${currentHour}, currentHour`);
