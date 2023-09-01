@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function() {
   city=document.querySelector(".searchcity").value;
   document.querySelector(".searchcity").value="";
   // console.log(`city ${city}`);
-  let baseUrl="http://api.weatherapi.com/v1/forecast.json?key="+KEY+"&q="+city+"&days=5";
+  let baseUrl="https://api.weatherapi.com/v1/forecast.json?key="+KEY+"&q="+city+"&days=5";
   let reponse=loadMainContent(baseUrl);
   
   });
