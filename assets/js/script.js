@@ -1,5 +1,5 @@
-// url="http://api.weatherapi.com/v1/current.json?key=2f2be9434c73401d8a0153126232008&q=Madurai&aqi=yes";
-let KEY="2f2be9434c73401d8a0153126232008";
+// url="http://api.weatherapi.com/v1/current.json?key=APIKEY&q=Madurai&aqi=yes";
+let KEY="APIKEY";
 let city="";
 
 var degreeSymbol = "\u00B0";
